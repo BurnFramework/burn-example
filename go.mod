@@ -1,4 +1,4 @@
-module github.com/BurnFramework/burn-examples
+module github.com/BurnFramework/burn-example
 
 go 1.16
 
