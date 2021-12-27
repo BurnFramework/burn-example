@@ -10,6 +10,8 @@ func main() {
 	// handlers
 	br.Get("/helloworld", indexpage)
 
+	br.Static("/main", "./index.html")
+
 	// start server
 	br.Start(":8080")
 }
