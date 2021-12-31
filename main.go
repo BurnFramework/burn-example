@@ -5,9 +5,8 @@ import (
 )
 
 type todo struct {
-	Done  string
-	False string
-	Time  int64
+	Done string
+	Time int64
 }
 
 var todolist = []todo{
